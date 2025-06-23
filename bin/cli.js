@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from "commander";
-import { sendLogs, fetchAttendance, fetchSummaries, manageAlerts } from "../components/api.js";
+import { sendLogs, fetchAttendance, fetchSummaries, manageAlerts, calendarSync } from "../components/api.js";
 import { connectMeetManual, connectMeetAuto, recordMeet } from "../components/meet.js";
 import { login } from "../components/auth.js";
 
